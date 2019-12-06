@@ -13,8 +13,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Player
+  - Ground
   - 
   - 
   - 
@@ -38,9 +38,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BG
+    uniqueID: 1931418315
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: test
+  - name: Player
+    uniqueID: 3713851063
+    locked: 0
+  - name: BGElements
     uniqueID: 1573733813
     locked: 0

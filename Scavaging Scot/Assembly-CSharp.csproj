@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Controller.cs" />
+    <Compile Include="Assets\controllWheel.cs" />
     <Compile Include="Assets\EasyMobile\Demo\Scripts\AdvertisingDemo\AdsSection.cs" />
     <Compile Include="Assets\EasyMobile\Demo\Scripts\AdvertisingDemo\AdvertisingDemo.cs" />
     <Compile Include="Assets\EasyMobile\Demo\Scripts\AdvertisingDemo\BannerSection.cs" />
@@ -450,6 +451,8 @@
     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\UIImagePickerController.cs" />
     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\UIViewController.cs" />
     <Compile Include="Assets\LevelManager.cs" />
+    <Compile Include="Assets\MeshRendererInspector.cs" />
+    <Compile Include="Assets\PlayerLogic.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -536,6 +539,9 @@
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>C:/Users/dde/Documents/GitHub/ScavaginScot/Scavaging Scot/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>C:/Users/dde/Documents/GitHub/ScavaginScot/Scavaging Scot/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/dde/Documents/GitHub/ScavaginScot/Scavaging Scot/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
